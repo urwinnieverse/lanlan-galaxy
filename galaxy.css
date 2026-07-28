@@ -1,0 +1,209 @@
+
+@font-face {
+    font-family: 'StarFont';
+    src: url('Midnightconstellations-YLgo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(space.jpg);
+    background-size: 25%;
+    background-position: center center;
+    background-repeat: repeat;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.containers {
+
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+
+}
+
+.planets-orbit {
+
+    display: flex;
+    position: relative;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.planets {
+
+    height: auto;
+    width: 150px;
+    animation: float 5s ease-in-out infinite;
+    cursor: pointer;
+
+}
+
+#logo {
+
+    width: 500px;
+    mix-blend-mode: screen;
+    mask-image: radial-gradient(circle, black 50%, transparent 90%);
+    -webkit-mask-image: radial-gradient(circle, black 50%, transparent 90%);
+}
+
+
+#noni {
+    position: absolute;
+    align-self: end;
+    animation: reverse-float 5s ease-in-out infinite;
+}
+
+#nimnim {
+
+    position: absolute;
+    align-self: flex-start;
+    right: 50%;
+    animation: reverse-float 5s ease-in-out infinite;
+}
+
+#thrthr {
+    position: absolute;
+    align-self: flex-start;
+    transform: rotate(35deg);
+}
+
+#rhrh {
+    position: absolute;
+    align-self: center;
+    left: 50%;
+
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+}
+
+@keyframes reverse-float {
+
+    0%,
+    100% {
+        transform: translateY(-10px);
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+}
+
+
+#upper-logo{
+
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    width: 100px;
+    height: auto;
+    z-index: 10000;
+
+}
+
+.planets-buttom{
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    align-self: center;
+    left: 50%;
+    transform: translate(-65%, 55%);
+
+}
+
+.aliens{
+
+    display: flex;
+    position: fixed;
+    align-self: center;
+    left: 32%;
+    z-index: 1000;
+    width: 75px;
+
+
+}
+
+.message{
+
+    font-family: StarFont, fantasy ;
+      font-size: 1.3rem;
+      text-align: left;
+     color: #dfad09;
+     display: none;
+    position: fixed;
+    align-self: center;
+    top: 10%;
+    left: 50%;
+    z-index: 1000;
+    text-wrap: wrap;
+    width: 42%;
+}
+
+/*thrthr*/
+
+
+/*rahrah*/
+#rahrah-planet{
+
+    transform: translate(-75%, 55%) rotate(45deg) ;
+    width: 60%;
+}
+
+#noni-planet{
+
+    transform: translate(-70%, 65%) rotate(45deg) ;
+}
+
+#noni-alien{
+
+        left: 27%;
+
+}
+
+#nimnim-planet{
+
+     transform: translate(-95%, 65%);
+ width: 60%;
+}
+
+#nimnim-alien{
+
+        left: 20%;
+
+}
