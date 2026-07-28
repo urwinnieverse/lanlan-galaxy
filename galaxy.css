@@ -204,7 +204,7 @@ body {
         width: 90px !important;
     }
     #thrthr{
-         width: 120px !important;
+         width: 140px !important;
     }
 
     #noni, #nimnim, #thrthr, #rhrh {
@@ -269,7 +269,7 @@ body {
         transform: translate(-50%, 70%) !important;
     }
     #nimnim-message{
-        font-size:0.8 rem;
+        font-size:0.8rem;
     }
 }
 
@@ -286,12 +286,18 @@ body {
     .planets {
         width: 110px !important;
     }
+    #thrthr{
+         width: 160px !important;
+    }
 
     .message {
         width: 70%;
         left: 15%;
         top: 14%;
         font-size: 1.2rem;
+    }
+    #nimnim-message{
+        font-size:1rem;
     }
 
     .aliens {
