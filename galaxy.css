@@ -203,6 +203,9 @@ body {
     .planets {
         width: 90px !important;
     }
+    #thrthr{
+         width: 120px !important;
+    }
 
     #noni, #nimnim, #thrthr, #rhrh {
         position: static;
@@ -241,7 +244,7 @@ body {
     }
 
     .aliens {
-        width: 55px;
+        width: 65px;
         left: 50% !important;
         transform: translateX(-50%);
         bottom: 22vh;
@@ -255,15 +258,18 @@ body {
     }
 
     #rahrah-planet {
-        transform: translate(-50%, 45%) rotate(45deg) !important;
+        transform: translate(-50%, 65%) rotate(45deg) !important;
     }
 
     #noni-planet {
-        transform: translate(-50%, 50%) rotate(45deg) !important;
+        transform: translate(-50%, 60%) rotate(45deg) !important;
     }
 
     #nimnim-planet {
-        transform: translate(-50%, 50%) !important;
+        transform: translate(-50%, 70%) !important;
+    }
+    #nimnim-message{
+        font-size:0.8 rem;
     }
 }
 
@@ -301,4 +307,18 @@ body {
         left: 50% !important;
         transform: translate(-50%, 50%) !important;
     }
+
+        #rahrah-planet {
+        transform: translate(-50%, 65%) rotate(45deg) !important;
+    }
+
+    #noni-planet {
+        transform: translate(-50%, 60%) rotate(45deg) !important;
+    }
+
+    #nimnim-planet {
+        transform: translate(-50%, 70%) !important;
+    }
+
+    
 }
