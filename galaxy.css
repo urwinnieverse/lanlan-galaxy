@@ -268,9 +268,6 @@ body {
     #nimnim-planet {
         transform: translate(-50%, 70%) !important;
     }
-    #nimnim-message{
-        font-size:0.8rem;
-    }
 }
 
 /* Tablets / iPads (768px to 1024px) */
@@ -295,9 +292,6 @@ body {
         left: 15%;
         top: 14%;
         font-size: 1.2rem;
-    }
-    #nimnim-message{
-        font-size:1rem;
     }
 
     .aliens {
